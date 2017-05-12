@@ -11,9 +11,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- Page Title -->
-	<title>Template</title>
+	<title>KohlerCMS</title>
 </head>
 <body>
-	<h1>Content goes here, well, if you want it, that is.</h1>
+	<nav class="navbar">
+		<span class="navbar__item"><a href="#" class="item__link">Link 1</a></span>
+		<span class="navbar__item"><a href="#" class="item__link">Link 2</a></span>
+		<span class="navbar__item"><a href="#" class="item__link">Link 3</a></span>
+		<span class="navbar__item"><a href="#" class="item__link">Link 4</a></span>
+	</nav>
+	<footer class="footer">
+		<p class="footer__text">&copy; Copyright 2017 | KohlerCMS - A product by KohlerCoding</p>
+	</footer>
 </body>
 </html>
