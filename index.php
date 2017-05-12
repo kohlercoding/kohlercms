@@ -20,6 +20,9 @@
 		<span class="navbar__item"><a href="#" class="item__link">Link 3</a></span>
 		<span class="navbar__item"><a href="#" class="item__link">Link 4</a></span>
 	</nav>
+	<main class="page-content">
+		
+	</main>
 	<footer class="footer">
 		<p class="footer__text">&copy; Copyright 2017 | KohlerCMS - A product by KohlerCoding</p>
 	</footer>
