@@ -6,3 +6,6 @@ This is a dynamic CMS made in **PHP**. For all your CMS needs.
 ---
 * Nothing yet.
 * More to come...
+
+**_NOTE TO SELF_**
+* Remember to make tags/versions when ready for release.
