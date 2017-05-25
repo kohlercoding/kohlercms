@@ -14,8 +14,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme-cyborg.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/dashboard.css">
-	<script src="https://use.fontawesome.com/7392fcfc82.js"></script>
+	<link rel="stylesheet" href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mdi-compat.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js""></script>
+	<!-- WARNING!!! ADDED ONLY WHILE DEVELOPMENT IS ONGOING! WILL BE REMOVED AFTER RELEASE! -->
 	<script>
 		$.ajax({
 			url: 'https://randomuser.me/api/?results=1&inc=picture&nat=DK&gender=male',
@@ -51,16 +53,16 @@
 		<div class="collapse navbar-collapse" id="navbarColor01">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#"><i class="mdi mdi-home"></i> Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa fa-users"></i> Users</a>
+					<a class="nav-link" href="#"><i class="mdi mdi-account-multiple"></i> Users</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa fa-puzzle-piece"></i> Plugins (WIP)</a>
+					<a class="nav-link" href="#"><i class="mdi mdi-puzzle"></i> Plugins (WIP)</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fa fa-cogs"></i> Site settings</a>
+					<a class="nav-link" href="#"><i class="mdi mdi-settings"></i> Site settings</a>
 				</li>
 			</ul>
 			<ul class="navbar-nav navbar-right">
@@ -70,12 +72,12 @@
 						Your Profile
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a href="#" class="dropdown-item">Update information</a>
-						<a href="#" class="dropdown-item">Log out</a>
+						<a href="#" class="dropdown-item"><i class="mdi mdi-account-settings-variant"></i> Update information</a>
+						<a href="#" class="dropdown-item"><i class="mdi mdi-logout"></i> Log out</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link">Back to site</a>
+					<a href="#" class="nav-link"><i class="mdi mdi-keyboard-backspace"></i> Back to site</a>
 				</li>
 			</ul>
 		</div>
@@ -86,7 +88,7 @@
 			<nav class="col-sm-3 col-md-2 hidden-xs-down bg-inverse sidebar">
 				<ul class="nav nav-pills flex-column">
 					<li class="nav-item">
-						<i class="nav-link fa fa-info-circle fa-2x"></i>
+						<i class="nav-link mdi mdi-information mdi-36px"></i>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="?p=home">Overview</a>
@@ -104,7 +106,7 @@
 
 				<ul class="nav nav-pills flex-column">
 					<li class="nav-item">
-						<i class="nav-link fa fa-users fa-2x"></i>
+						<i class="nav-link mdi mdi-account-multiple mdi-36px"></i>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Edit users</a>
@@ -116,7 +118,7 @@
 
 				<ul class="nav nav-pills flex-column">
 					<li class="nav-item">
-						<i class="nav-link fa fa-wrench fa-2x"></i>
+						<i class="nav-link mdi mdi-wrench mdi-36px"></i>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Site settings</a>
