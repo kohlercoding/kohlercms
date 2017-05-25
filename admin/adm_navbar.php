@@ -44,7 +44,7 @@
 <h1>Manage Navbar</h1>
 
 <p>This is the navbar management page. For making updates to the navbar on frontend.</p>
-<button class="btn btn-success" data-toggle="modal" data-target="#createModal"><i class="fa fa-plus"></i> New navitem</button>
+<button class="btn btn-lg btn-success" data-toggle="modal" data-target="#createModal"><i class="mdi mdi-plus"></i> Nav item</button>
 <br><br>
 <h2>Navbar Items</h2>
 <div class="table-responsive">
